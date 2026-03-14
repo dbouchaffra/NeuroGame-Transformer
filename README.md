@@ -1,8 +1,32 @@
-\# NeuroGame Transformer: This repository contains the official implementation of the "NeuroGame Transformer" (NGT)--A novel attention mechanism that integrates "Cooperative Game Theory" (Shapley values, Banzhaf indices) with "Statistical Physics" (mean-field Ising model) for interpretable natural language inference. NeuroGame Transformer has been developed by the following people: Djamel Bouchaffra (Paris-Saclay University, Campus UVSQ, France), Ykhlef Fayçal (CDTA, Algeria), Mustapha Lebbah (Paris-Saclay University, Campus UVSQ, France), Hanene Azzag (Paris-Sorbonne-Nord University, France), and Bilal Faye (Paris-Sorbonne-Nord University, France).
+###### \# **NeuroGame Transformer**: This repository contains the official implementation of the "NeuroGame Transformer" (NGT)--A novel attention mechanism that integrates "Cooperative Game Theory" (Shapley values, Banzhaf indices) with "Statistical Physics" (mean-field Ising model) for interpretable natural language inference. NeuroGame Transformer has been developed by the following people: Djamel Bouchaffra (Paris-Saclay University, Campus UVSQ, France), Ykhlef Fayçal (CDTA, Algeria), Mustapha Lebbah (Paris-Saclay University, Campus UVSQ, France), Hanene Azzag (Paris-Sorbonne-Nord University, France), and Bilal Faye (Paris-Sorbonne-Nord University, France).
 
 
 
 \## Results: NGT achieves 87% test accuracy on SNLI outperforming all efficient transformers baselines and approaching the performance of strong pretrained models.
+
+
+
+This project uses the \*\*SNLI\*\* dataset. You can download it from the official source:
+
+
+
+\- \*\*SNLI\*\*: \[https://nlp.stanford.edu/projects/snli/](https://nlp.stanford.edu/projects/snli/)
+
+
+
+After downloading, place the following CSV files in a folder (e.g., `data/`):
+
+
+
+\- `snli\_train.csv`
+
+\- `snli\_validation.csv`
+
+\- `snli\_test.csv`
+
+
+
+Then update the `base\_path` variable in the code to point to your data folder.the CSV files should have the columns premise, hypothesis, label (as your code expects). 
 
 
 
@@ -49,6 +73,4 @@ The reported results were obtained with:
 Bash
 
 git clone....
-
-
 
