@@ -2,13 +2,15 @@
 
 
 
-\## Results: NGT achieves 86.6% test accuracy on SNLI outperforming all efficient transformers baselines and approaching the performance of strong pretrained models. It achieves an accuracy close to 80% on the MNLI dataset.
+\## Results: NGT achieves approximatively 86.6% test accuracy on SNLI outperforming all efficient transformers baselines and approaching the performance of strong pretrained models. It achieves an accuracy close to 80% on the MNLI dataset.
 
 This project uses the SNLI and MNLI datasets. You can download them from the official source:
 
 SNLI https://nlp.stanford.edu/projects/snli/](https://nlp.stanford.edu/projects/snli/)
-MNLI (GLUE version): https://dl.fbaipublicfiles.com/glue/data/MNLI.zip 
+Code: NeuroGame-Transformer-SNLI (3 eopochs were used)
 
+MNLI (GLUE version): https://dl.fbaipublicfiles.com/glue/data/MNLI.zip 
+Code: NeuroGame-Transformer-MNLI (10 epochs were used)
 
 After downloading, place the following CSV files in a folder (e.g., `data/`):
 
