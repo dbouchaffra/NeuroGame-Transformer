@@ -2,7 +2,7 @@
 
 
 
-\## Results: NGT achieves approximatively 86.6% test accuracy on SNLI outperforming all efficient transformers baselines and approaching the performance of strong pretrained models. It achieves an accuracy close to 80% on the MNLI dataset.
+\## Results: NGT achieves approximately 86.6% test accuracy on SNLI outperforming all efficient transformers baselines and approaching the performance of strong pretrained models. It achieves an accuracy close to 80% on the MNLI dataset.
 
 This project uses the SNLI and MNLI datasets. You can download them from the official source:
 
