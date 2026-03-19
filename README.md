@@ -7,7 +7,7 @@
 This project uses the SNLI and MNLI datasets. You can download them from the official source:
 
 SNLI https://nlp.stanford.edu/projects/snli/](https://nlp.stanford.edu/projects/snli/)
-Code: NeuroGame-Transformer-SNLI (3 eopochs were used)
+Code: NeuroGame-Transformer-SNLI (5 eopochs were used)
 
 MNLI (GLUE version): https://dl.fbaipublicfiles.com/glue/data/MNLI.zip 
 Code: NeuroGame-Transformer-MNLI (10 epochs were used)
