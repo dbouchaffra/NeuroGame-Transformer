@@ -2,16 +2,12 @@
 
 
 
-\## Results: NGT achieves 87% test accuracy on SNLI outperforming all efficient transformers baselines and approaching the performance of strong pretrained models.
+\## Results: NGT achieves 86.6% test accuracy on SNLI outperforming all efficient transformers baselines and approaching the performance of strong pretrained models. It achieves an accuracy close to 80% on the MNLI dataset.
 
+This project uses the SNLI and MNLI datasets. You can download them from the official source:
 
-
-This project uses the \*\*SNLI\*\* dataset. You can download it from the official source:
-
-
-
-\- \*\*SNLI\*\*: \[https://nlp.stanford.edu/projects/snli/](https://nlp.stanford.edu/projects/snli/)
-
+SNLI https://nlp.stanford.edu/projects/snli/](https://nlp.stanford.edu/projects/snli/)
+MNLI (GLUE version): https://dl.fbaipublicfiles.com/glue/data/MNLI.zip 
 
 
 After downloading, place the following CSV files in a folder (e.g., `data/`):
@@ -24,28 +20,20 @@ After downloading, place the following CSV files in a folder (e.g., `data/`):
 
 \- `snli\_test.csv`
 
-
-
 Then update the `base\_path` variable in the code to point to your data folder.the CSV files should have the columns premise, hypothesis, label (as your code expects). 
-
-
 
 \## Key Features
 
 \-Game Theoretic Attribution: Shapley values and Banzhaf indices estimated via importance-weighted Monte Carlo.
 
 
-
 \-Mean-Field Ising Model: Tokens interaction modeled as spins with temperature gamma solved via fixed-point iterations.
-
 
 
 \-Interpretability: Local fields and pairwise interactions provide token-level and pairwise explanations.
 
 
-
 \-Scalability: Monte Carlo sampling with Gibbs weights avoids exponential complexity.
-
 
 
 \## Configuration
